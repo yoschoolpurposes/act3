@@ -1,0 +1,136 @@
+/* ===== BASE ===== */
+body {
+  background-color: #FFFBE7;
+  font-family: 'Montserrat', sans-serif;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== HERO ===== */
+.hero-landing {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(120deg, #E8D8C4 60%, #6A7B5B 100%);
+  border-radius: 20px;
+  color: #2B2B2B;
+}
+
+.hero-landing h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  color: #2B2B2B;
+}
+
+.hero-sub {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #4A2E2A;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-cta-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: #6A7B5B;
+  color: #FFFBE7;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-cta-btn:hover {
+  background-color: #5A3A33;
+}
+
+/* ===== FEATURES ===== */
+.features-section {
+  margin-top: 50px;
+}
+
+.feature-card {
+  background-color: #E8D8C4;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background-color: #d9c6ad;
+}
+
+.feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #5A3A33;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+}
+
+/* ===== PICKS ===== */
+.picks-section {
+  margin-top: 60px;
+}
+
+.picks-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5A3A33;
+}
+
+.pick-card {
+  background-color: #E8D8C4;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.pick-card:hover {
+  transform: scale(1.03);
+  background-color: #d9c6ad;
+}
+
+.pick-flower {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #4A2E2A;
+}
+
+.pick-desc {
+  color: #6A7B5B;
+}
+
+/* ===== WORKSHOPS ===== */
+.workshops-section {
+  background-color: #6A7B5B;
+  color: #FFFBE7;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.workshops-section h2 {
+  color: #FFFBE7;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #4A2E2A;
+  color: #FFFBE7;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #E8D8C4;
+}
